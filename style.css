@@ -1,3 +1,4 @@
+/*--------------====== Start Common style part CSS ======----------------*/
 body {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
@@ -23,8 +24,13 @@ h1 {
     color: rgb(51,153,255);
     font-weight: 700;
 }
+.heading-style {
+    color:rgb(252,95,81);
+    width: 700;
+}
+/*--------------====== Start Common style part CSS ======----------------*/
 
-/*--------------====== end Menu CSS ======----------------*/
+/*--------------====== Start Menu CSS ======----------------*/
 
 #menu {
     box-shadow: 50px 20px 10px whitesmoke;
@@ -41,7 +47,8 @@ h1 {
 }
 
 /*--------------====== end Menu CSS ======----------------*/
-/*--------------====== Start hello CSS ======----------------*/
+
+/*--------------====== Start hello part CSS ======----------------*/
 
 
 .hireme-button {
@@ -57,7 +64,9 @@ h1 {
  #profile-img {
      width: 100%;
  }
+/*--------------====== End hello part CSS ======----------------*/
 
+/*--------------====== Start About part CSS ======----------------*/
  .cv-button {
     text-decoration: none;
     background-image: linear-gradient(45deg, rgb(245,157,116), rgb(252,95,81));
@@ -67,12 +76,9 @@ h1 {
     font-weight: 700;
     border-radius: 5px;
  }
+/*--------------====== End about part CSS ======----------------*/
 
-.heading-style {
-    color:rgb(252,95,81);
-    width: 700;
-}
-
+/*--------------====== Start project part CSS ======----------------*/
 .lestet-project {
     background-color: rgb(210, 223, 222);
     height: 550px;
@@ -101,7 +107,9 @@ h1 {
      }
 
 
+/*--------------====== End project part CSS ======----------------*/
 
+/*--------------====== Start Work Qnquiry part CSS ======----------------*/
 
  #work-inquiry {
         height: 100%;
@@ -135,6 +143,9 @@ h1 {
     border-radius: 5px;
     
      }
+/*--------------====== End Work Qnquiry part CSS ======----------------*/
+
+/*--------------====== Start Clients part CSS ======----------------*/
 
 .clients-area {
     padding: 10px;
@@ -163,6 +174,9 @@ h1 {
     float: left;
     padding-right: 10px;
 }
+/*--------------====== End Clients part CSS ======----------------*/
+
+/*--------------====== End Contect part CSS ======----------------*/
 
 #contact {
     text-align: center;
@@ -205,8 +219,11 @@ h1 {
     text-align: center;
 
 }
+/*--------------====== End Contect part CSS ======----------------*/
+
+/*--------------====== Start footer part CSS ======----------------*/
 
 footer {
     text-align: center;
 }
-
+/*--------------====== End footer part CSS ======----------------*/
