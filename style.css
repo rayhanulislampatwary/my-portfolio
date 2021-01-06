@@ -20,10 +20,7 @@ h1 {
      font-weight: bolder;
      font-size: 50px;
 }
-#name-color {
-    color: rgb(51,153,255);
-    font-weight: 700;
-}
+
 .heading-style {
     color:rgb(252,95,81);
     width: 700;
@@ -50,6 +47,11 @@ h1 {
 
 /*--------------====== Start hello part CSS ======----------------*/
 
+#name-color {
+    color: rgb(51,153,255);
+    font-weight: 700;
+    font-family: 'Do Hyeon', sans-serif;
+}
 
 .hireme-button {
      text-decoration: none;
@@ -81,7 +83,7 @@ h1 {
 /*--------------====== Start project part CSS ======----------------*/
 .lestet-project {
     background-color: rgb(210, 223, 222);
-    height: 550px;
+    height: 650px;
     padding: 20px;
     text-align: center;
 
@@ -108,6 +110,37 @@ h1 {
 
 
 /*--------------====== End project part CSS ======----------------*/
+
+/*--------------====== Start Clients part CSS ======----------------*/
+
+.clients-area {
+    padding: 10px;
+    height: 400px;
+    text-align: center;
+}
+.reviews-box {
+    box-shadow: 10px 10px 40px black;
+    border-radius: 20px;
+}
+#clients-one {
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg, rgb(17, 73, 196) ,rgb(29, 186, 207));
+        border-image-slice: 1;
+        border-radius: 10px;
+}
+#clients-two {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(19, 88, 167) , blue);
+    border-image-slice: 1;
+    
+}
+.clients-img {
+    height: 200px ;
+    width: auto;
+    float: left;
+    padding-right: 10px;
+}
+/*--------------====== End Clients part CSS ======----------------*/
 
 /*--------------====== Start Work Qnquiry part CSS ======----------------*/
 
@@ -144,37 +177,6 @@ h1 {
     
      }
 /*--------------====== End Work Qnquiry part CSS ======----------------*/
-
-/*--------------====== Start Clients part CSS ======----------------*/
-
-.clients-area {
-    padding: 10px;
-    height: 400px;
-    text-align: center;
-}
-.reviews-box {
-    box-shadow: 10px 10px 40px black;
-    border-radius: 20px;
-}
-#clients-one {
-        border-left: 7px solid;
-        border-image: linear-gradient(180deg, rgb(17, 73, 196) ,rgb(29, 186, 207));
-        border-image-slice: 1;
-        border-radius: 10px;
-}
-#clients-two {
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, rgb(19, 88, 167) , blue);
-    border-image-slice: 1;
-    
-}
-.clients-img {
-    height: 200px ;
-    width: auto;
-    float: left;
-    padding-right: 10px;
-}
-/*--------------====== End Clients part CSS ======----------------*/
 
 /*--------------====== End Contect part CSS ======----------------*/
 
