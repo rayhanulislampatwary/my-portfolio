@@ -1,0 +1,212 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+   
+}
+
+.section-area {
+    padding: 10px;
+    height: 600px;
+}
+.helf-width {
+    width: 40%;
+    margin: 4%;
+    padding-left: 1;
+    float: left;
+}
+
+h1 {
+     font-weight: bolder;
+     font-size: 50px;
+}
+#name-color {
+    color: rgb(51,153,255);
+    font-weight: 700;
+}
+
+/*--------------====== end Menu CSS ======----------------*/
+
+#menu {
+    box-shadow: 50px 20px 10px whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding-left: 15px;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+/*--------------====== end Menu CSS ======----------------*/
+/*--------------====== Start hello CSS ======----------------*/
+
+
+.hireme-button {
+     text-decoration: none;
+     background-image: linear-gradient(45deg, rgb(51,153,255), rgb(28,208,217));
+     padding: 10px 20px;
+     color: white;
+     font-size: 20px;
+     font-weight: 700;
+     border-radius: 5px;
+ }
+
+ #profile-img {
+     width: 100%;
+ }
+
+ .cv-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(245,157,116), rgb(252,95,81));
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+ }
+
+.heading-style {
+    color:rgb(252,95,81);
+    width: 700;
+}
+
+.lestet-project {
+    background-color: rgb(210, 223, 222);
+    height: 550px;
+    padding: 20px;
+    text-align: center;
+
+} 
+ 
+#project-heading {
+    text-align: center;
+    font-size: 40px;
+    float: left;
+    float: none;
+    
+
+} 
+
+ .project-area {
+     width: 25%;
+     box-shadow: 10px 10px 40px black;
+     border-radius: 10px;
+     margin: 25px;
+     padding: 20px;
+     float: left;
+     background-color: white;
+     }
+
+
+
+
+ #work-inquiry {
+        height: 100%;
+        width: 100%;
+        background-image: url(images/work-inquiry.png);
+        background-position: center;
+        background-size: 800px auto;
+        background-repeat: no-repeat;
+        
+    }
+ #inquiry-text {
+     font-size: 40px;
+    font-weight: 700;
+    color: white;
+    float: left;
+    margin-top: 0px;
+    margin-left: 320px;
+    padding-top: 260px;
+    font-family: 'Do Hyeon', sans-serif;
+    
+     }
+#chat-button{
+    font-size: 30px;
+    font-weight: 700;
+    float: right;
+    margin-right: 320px;
+    margin-top: 260px;
+    background-image: linear-gradient(45deg, rgb(51,153,255), rgb(28,208,217));
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    
+     }
+
+.clients-area {
+    padding: 10px;
+    height: 400px;
+    text-align: center;
+}
+.reviews-box {
+    box-shadow: 10px 10px 40px black;
+    border-radius: 20px;
+}
+#clients-one {
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg, rgb(17, 73, 196) ,rgb(29, 186, 207));
+        border-image-slice: 1;
+        border-radius: 10px;
+}
+#clients-two {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(19, 88, 167) , blue);
+    border-image-slice: 1;
+    
+}
+.clients-img {
+    height: 200px ;
+    width: auto;
+    float: left;
+    padding-right: 10px;
+}
+
+#contact {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Do Hyeon', sans-serif;
+    text-decoration: none;
+    color: rgb(77,65,202);
+
+}
+
+.icons-size {
+    height: 30px;
+    width: auto;
+    padding: 10px;
+ 
+}
+
+.contact-width {
+    float: left;
+    width: 45%;
+    padding-left: 3%;
+}
+.input-box {
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+}
+#submit-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-image: linear-gradient(45deg, rgb(97,100,223), rgb(77,65,202));
+    border-radius: 5px;
+    margin-top: 10px;
+    width:95%;
+    color: white;
+    text-align: center;
+}
+
+#contact-us-text {
+    text-align: center;
+
+}
+
+footer {
+    text-align: center;
+}
+
