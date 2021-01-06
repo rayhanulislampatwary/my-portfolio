@@ -12,12 +12,12 @@ body {
 .helf-width {
     width: 40%;
     margin: 4%;
-    padding-left: 1;
+    padding-left: 1%;
     float: left;
 }
 
 h1 {
-     font-weight: bolder;
+     font-weight: 700;
      font-size: 50px;
 }
 
@@ -25,27 +25,27 @@ h1 {
     color:rgb(252,95,81);
     width: 700;
 }
-/*--------------====== Start Common style part CSS ======----------------*/
+/*--------------====== End Common style part CSS ======----------------*/
 
 /*--------------====== Start Menu CSS ======----------------*/
 
 #menu {
-    box-shadow: 50px 20px 10px whitesmoke;
+    box-shadow: 50px 20px 10px rgb(245, 245, 245);
     border-radius: 10px;
     padding: 20px;
     text-align: center;
 }
 #menu a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 30px;
-    padding-left: 15px;
+    padding-left: 20px;
     font-family: 'Do Hyeon', sans-serif;
 }
 
 /*--------------====== end Menu CSS ======----------------*/
 
-/*--------------====== Start hello part CSS ======----------------*/
+/*--------------====== Start Hello part CSS ======----------------*/
 
 #name-color {
     color: rgb(51,153,255);
@@ -57,7 +57,7 @@ h1 {
      text-decoration: none;
      background-image: linear-gradient(45deg, rgb(51,153,255), rgb(28,208,217));
      padding: 10px 20px;
-     color: white;
+     color: hsl(0, 0%, 100%);
      font-size: 20px;
      font-weight: 700;
      border-radius: 5px;
@@ -66,21 +66,21 @@ h1 {
  #profile-img {
      width: 100%;
  }
-/*--------------====== End hello part CSS ======----------------*/
+/*--------------====== End Hello part CSS ======----------------*/
 
 /*--------------====== Start About part CSS ======----------------*/
  .cv-button {
     text-decoration: none;
     background-image: linear-gradient(45deg, rgb(245,157,116), rgb(252,95,81));
     padding: 10px 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 700;
     border-radius: 5px;
  }
-/*--------------====== End about part CSS ======----------------*/
+/*--------------====== End About part CSS ======----------------*/
 
-/*--------------====== Start project part CSS ======----------------*/
+/*--------------====== Start Project part CSS ======----------------*/
 .lestet-project {
     background-color: rgb(210, 223, 222);
     height: 650px;
@@ -100,12 +100,12 @@ h1 {
 
  .project-area {
      width: 25%;
-     box-shadow: 10px 10px 40px black;
+     box-shadow: 10px 10px 40px rgb(0, 0, 0);
      border-radius: 10px;
      margin: 25px;
      padding: 20px;
      float: left;
-     background-color: white;
+     background-color:rgb(255, 255, 255);
      }
 
 
@@ -119,7 +119,7 @@ h1 {
     text-align: center;
 }
 .reviews-box {
-    box-shadow: 10px 10px 40px black;
+    box-shadow: 10px 10px 40px rgb(0, 0, 0);
     border-radius: 20px;
 }
 #clients-one {
@@ -130,7 +130,7 @@ h1 {
 }
 #clients-two {
     border-left: 7px solid;
-    border-image: linear-gradient(180deg, rgb(19, 88, 167) , blue);
+    border-image: linear-gradient(180deg, rgb(19, 88, 167) , rgb(0, 0, 255));
     border-image-slice: 1;
     
 }
@@ -156,7 +156,7 @@ h1 {
  #inquiry-text {
      font-size: 40px;
     font-weight: 700;
-    color: white;
+    color: rgb(255, 255, 255);
     float: left;
     margin-top: 0px;
     margin-left: 320px;
@@ -165,6 +165,7 @@ h1 {
     
      }
 #chat-button{
+    text-decoration: none;
     font-size: 30px;
     font-weight: 700;
     float: right;
@@ -190,9 +191,12 @@ h1 {
 }
 
 .icons-size {
+    text-decoration: none;
     height: 30px;
     width: auto;
     padding: 10px;
+  
+
  
 }
 
@@ -200,6 +204,7 @@ h1 {
     float: left;
     width: 45%;
     padding-left: 3%;
+    
 }
 .input-box {
     border-radius: 5px;
@@ -207,14 +212,19 @@ h1 {
     width: 90%;
 }
 #submit-button {
+    text-decoration: none;
     padding: 10px 20px;
     font-size: 20px;
     background-image: linear-gradient(45deg, rgb(97,100,223), rgb(77,65,202));
     border-radius: 5px;
     margin-top: 10px;
     width:95%;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
+}
+
+.contact-link {
+    text-decoration: none;
 }
 
 #contact-us-text {
